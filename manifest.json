@@ -2,10 +2,21 @@
   "short_name": "Vaikhanasa App",
   "name": "Vaikhanasa App",
   "icons": [
-    
+    {
+    "src": "icon_48.png",
+    "type": "image/png",
+    "sizes": "48x48"
+  },
+  {
+    "src": "icon_96.png",
+    "type": "image/png",
+    "sizes": "96x96"
+  }
   ],
-  "start_url": "./index.html",
+  "start_url": "/vaikhanasa/index.html",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#049372",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait"
 }
